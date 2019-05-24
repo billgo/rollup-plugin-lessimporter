@@ -41,11 +41,7 @@ module.exports = (opts = {}) => {
           throw new Error(`cannot resolve import '${lessImport}', tried:\n  ${pathTried.join('\n  ')}`);
         }
 
-        magicString.overwrite(
-          match.index,
-          match.index + matchString.length,
-          `${match[1]}${lessImport}${match[3]}`,
-        );
+        magicString.overwrite(match.index, match.index + matchString.length, `${match[1]}${lessImport}${match[3]}`);
         match = importRegex.exec(code);
       }
       return {
