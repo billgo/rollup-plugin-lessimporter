@@ -1,4 +1,5 @@
 # rollup-plugin-lessimporter
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 A rollup plugin providing ~ prefix as a way to tell less compiler that it should resolve path using a configured array of module directories.
@@ -32,10 +33,6 @@ export default {
 };
 ```
 
-## License
-
-BSD-3-Clause © OVH SAS
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -51,3 +48,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+BSD-3-Clause © OVH SAS and Billgo
