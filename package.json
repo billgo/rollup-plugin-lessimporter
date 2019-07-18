@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-lessimporter",
   "npmName": "RollupPluginLessimporter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A rollup plugin providing ~ prefix as a way to tell less compiler that it should resolve path using a configured array of module directories.",
   "author": "Billgo",
   "license": "BSD-3-Clause",
